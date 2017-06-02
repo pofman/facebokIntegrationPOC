@@ -1,7 +1,7 @@
 # Testing Facebook GRAPH API
 
 Create in the config folder a file called config.js with the following structure
-
+```json
 module.exports = {
     client_id: '{your client id}',
     client_secret: '{your client secret id}',
@@ -10,3 +10,4 @@ module.exports = {
     // using Settings -> Add platform -> Website
     redirect_uri: 'http://localhost:3000/auth'
 };
+```
