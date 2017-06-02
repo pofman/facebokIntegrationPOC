@@ -1,0 +1,14 @@
+html
+  head
+    title= title
+    link(href='http://marianoguerra.github.io/json.human.js/css/json.human.css', rel='stylesheet')
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+    script(src="http://marianoguerra.github.io/json.human.js/src/json.human.js")
+  body
+    h1= message
+    div
+        label(for="apiEndpoint") Endpoint
+            input(type="text", id="apiEndpoint")
+        input(type="button" value="Get!" id="save")
+    div(id="content")
+    script(src="js/app.js")
