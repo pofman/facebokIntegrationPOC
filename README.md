@@ -1,7 +1,7 @@
 # Testing Facebook GRAPH API
 
 Create in the config folder a file called config.js with the following structure
-```json
+```javascript
 module.exports = {
     client_id: '{your client id}',
     client_secret: '{your client secret id}',
